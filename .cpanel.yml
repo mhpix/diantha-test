@@ -1,5 +1,5 @@
 ---
 deployment:
       tasks:
-        - export DEPLOYPATH=/home/deenassa/repo/diantha-test # Add /<app_folder> if required
-        - /bin/cp * $DEPLOYPATH                           #copy all from root 
+        - export DEPLOYPATH=/home/deenassa/repositories/diantha-test
+        - /bin/cp * $DEPLOYPATH 
